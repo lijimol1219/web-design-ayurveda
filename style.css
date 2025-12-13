@@ -1,412 +1,140 @@
-
-
-
-.rounded{margin-top: -20px;}
-
-
-.abc{
-	  color: white;
-        }
-.aa{margin-top: 10px;
-      margin-right:7%;
-        color: white;
-}
-.mm{margin-left:45%;width:40%}
-
-@media only screen and ( max-width:1199px){
-	.mm{margin-left:36%;width:40%}
+/* ========== GENERAL ========== */
+body {
+  font-family: 'PT Sans', sans-serif;
 }
 
-
-@media only screen and ( max-width:1063px){
-	.mm{margin-left:30%;width:40%}
+.rounded {
+  margin-top: -20px;
 }
 
-@media only screen and ( max-width:976px){
-	.mm{margin-left:25%;width:40%}
+.aa {
+  margin-left: 15px;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
 }
 
-
-@media only screen and ( max-width:906px){
-	.mm{margin-left:17%;width:40%}
-}
-@media only screen and ( max-width:918px){
-	.mm{margin-left:21%;width:40%}
-}
-
-@media only screen and ( max-width:876px){
-	.mm{margin-left:13%;width:40%}
+/* ========== ICON HOVER ========== */
+.search:hover,
+.contct:hover,
+.hrt:hover {
+  color: red;
 }
 
-@media only screen and ( max-width:826px){
-	.mm{margin-left:7%;width:40%}
-}
-@media only screen and ( max-width:784px){
-	.mm{margin-left:3%;width:40%}
-}
-
-
-.img1{margin: 0;
-      padding: 0;
-height: auto;}
-.leaf{width: 40%;
-	height: 100px;
-	background-image: url("images/leaf.png")120px 0px  no-repeat;
-	
-}
-.prg{
-	text-align: justify;
-	height:auto;
-	color: white;
-	font-family: PT Sans;
+/* ========== NAV ICON CONTAINER ========== */
+.mm {
+  display: flex;
+  align-items: center;
 }
 
-.dis{display: flex;
-	justify-content: center;
-	font-family:Righteous;
-	padding-top: 30px;
-	color: white;
-	
-}
-.kj{
-	height: auto;
-	padding-bottom: 50px;
-	margin-top: -152px;
-	background-color: #59b10d;
-	
-}
-.bgpnk{
-	background-color: #9f245a;
-	margin-top: 20px;
-	color: white;
-}
-.bgpink{
-	background-color: #9f245a;
-	height: auto;
-	padding-top: 40px;
-	padding-bottom: 50px;
-}
-.bggn{height: 450px;
-	background-color: #8fb479;
-
+/* ========== BANNER ========== */
+.img1 {
+  position: relative;
 }
 
-.pdd{height: auto;
-	padding-top: 40px;
-	padding-bottom: 80px;
-	background-color: #8fb479;
-}
-.bxp{display: flex;
-	text-align: justify;
-	height: auto;
-	padding-top: 40px;
-}
-.dd3{
-	display: flex;
-	justify-content: center;
-	font-family: Righteous;
-	color: #9f245a;
-	padding-bottom: 50px;
-}
-.bttn2{
-	background-color: #9f245a;
-	padding:3% 5% 3% 5%;
-	color: white;
-}
-.bxbt{
-	padding-left: 37%;
-	padding-bottom:50px;
-	padding-top: 100px;
-}
-.trmnt{
-	font-family: Righteous;
-	display: flex;
-	justify-content: center;
-	padding-top: 50px;
-	padding-bottom: 30px;
-}
-.shd{
-	display: flex;
-	justify-content: center;
-	font-size: 15px;
-	padding-bottom: 20px;
-	padding-top: 20px;
-	font-family: PT Sans;
-}
-.thnag{
-	font-family: PT Sans;
-	
-}
-.grn1{
-	padding: 0;
-}
-.gimg{
-	height: 70px;
-}
-.hd3{
-	display: flex;
-	justify-content: center;
-	font-family: Righteous;
-	color:#9f245a; 
-	
+.cption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-family: 'Langar', cursive;
+  text-shadow: 1px 1px 3px #000;
 }
 
-
-.hdb{height: 30px;
-	background-color:#9f245a;
-	font-family:Impact;
-	display: flex;
-	justify-content: left;
-	padding-bottom: 50px;
-	padding-left: 25%;
-	
-	
-}
-.shp2{
-	height: auto;
-	padding-top: 50px;
-	display: flex;
-	text-align: justify;
-}
-.bt4{
-	background-color: #9f245a;
-	color: white;
-}
-.btt4{
-	padding-left: 40%;
-	padding-bottom: 100px;
-	
-}
-.kmk{
-	padding-left: 0;
-	padding-right: 0;
-	
-}
-.ftr{
-	background: url("images/footerimg.png")0px 0px no-repeat;
-	height: auto;
-	padding-top: 100px;
-   background-size: cover;
+.cpt1 {
+  font-size: 28px;
 }
 
-.fa1{color: black;
-      text-decoration: none;
-      cursor: pointer;
-}
-.fa1:hover{color:red;}
-.eml1{
-	padding: 0;
-	margin: 0;
-}
-.ingn{
-	background-color:rgba(62,131,65,.50);
-	color: white;	
-}
-.yogap{
-	font-family: PT Sans;
+/* ========== FEATURES SECTION ========== */
+.kj {
+  background-color: #59b10d;
+  margin-top: -150px;
 }
 
-.ingn:focus{background-color:rgba(62,131,65,.50);
-	color:rgba(251,238,239,1.00);}
-
-
-.flw{
-	font-size: 16px;
-	padding-top: 10px;
-	
+.leaf {
+  width: 200px;
+  height: 80px;
+  background: url("images/leaf.png") center no-repeat;
+  background-size: contain;
+  margin: 20px auto;
 }
 
-.icng{
-	padding-top: 5px;
-	
-}
-.okp{
-	padding-top: 100px;
-}
-.fll{
-	padding-right: 5%;
-	padding-bottom: 140px;
-}
-.rr{
-	padding-right: 2%;
-	font-family: PT Sans;
-}
-.bbn{
-	background-color:white;
-	color: green;
-
-}
-.bbn:focus{
-	background-color:white;
-	color: green;
-}
-.emln{
-	padding-right: 0;
-	padding-left: 0;
-}
-.smbt{
-	padding-left: 0;
-	padding-right: 0;
-}
-.pft2{
-	padding-left: 3%;
-}
-.pft3{
-	padding-left: 3%;
-}
-.pft4{
-	padding-left: 3%;
-}
-.pft1:hover{
-	color: red;
-}
-.pft2:hover{
-	color: red;
-}
-.pft3:hover{
-	color: red;
-}
-.pft4:hover{
-	color: red;
-}
-.yogap{
-	height: auto;
-	padding-bottom: 50px;
-	padding-top: 50px;
-}
-.thnag{
-	height: auto;
-}
-.hrt:hover{color: red;}
-.contct:hover{color: red;}
-.search:hover{color: red;}
-.cprt{
-	font-size: 14px;
-	font-family: PT Sans;
-	text-align: center;
-	padding-top: 5px;
-}
-.cpbx{
-	background-color: rgba(50,117,26,.40);
-	margin: 0;
-	padding: 0;
-	height: auto;
-}
-.cption{
-	position: relative;
-	text-align: center;
-	display: flex;
-	z-index:999;
-	top:-168px;
-	left:25%;
-	font-family: langar;
-	color: white;
-	text-shadow:grey 1px 1px 2px;
-}
-@media only screen and ( max-width:994px){
-	.cption{position: relative;
-	        text-align: center;
-	          display: flex;
-	        z-index:999;
-	         top:-280px;}
-	.kj{
-	height: auto;
-	padding-bottom: 50px;
-	margin-top: -200px;
-}
+.prg {
+  color: white;
+  text-align: justify;
 }
 
-
-@media only screen and ( max-width:844px){
-	.cption{position: relative;
-	        text-align: center;
-	          display: flex;
-	        z-index:999;
-	         top:-266px;}
-	
-		.kj{
-	height: auto;
-	padding-bottom: 50px;
-	margin-top: -250px;
-			font-size: 20px;
-}
-	.cpt1{position: relative;
-		font-size: 26px;
-		
-	}
+/* ========== BUTTONS ========== */
+.bgpnk,
+.bttn2 {
+  background-color: #9f245a;
+  color: white;
 }
 
-
-
-
-@media only screen and ( max-width:704px){
-	
-		.kj{
-	height: auto;
-	padding-bottom: 50px;
-	margin-top: -300px;
-	
-}
-	.cpt1{position: relative;
-		font-size: 15px;
-	}
-}
-@media only screen and ( max-width:675px){
-	.kj{
-	height: auto;
-	padding-bottom: 50px;
-	margin-top: -120px;
-}	
-	.cpt1{position: relative;
-		font-size: 25px;
-		top: 100px;
-		
-	}
-	
+/* ========== WHY AYURVEDA ========== */
+.bgpink {
+  background-color: #9f245a;
 }
 
-
-@media only screen and ( max-width:570px){
-	
-		.kj{
-	height: auto;
-	padding-bottom: 50px;
-	margin-top: -56px;
-}
-	.cpt1{position: relative;
-		font-size:20px;
-		top:-180px;
-		
-	}
-	.cption{
-		left:-200px;
-	}
-}
-@media only screen and ( max-width:500px){
-	
-		.kj{
-	height: auto;
-	padding-bottom: 50px;
-	margin-top:-57px;
-}
-	.cpt1{position: relative;
-		font-size:20px;
-		top:200px;
-	}
-	.cption{
-		left: -20px;
-	}
+.pdd {
+  background-color: #8fb479;
+  padding: 40px 0;
 }
 
-.imgshiro:hover{
-	opacity: .80;
-	cursor: pointer;
+.dd3 {
+  font-family: 'Righteous', cursive;
+  color: #9f245a;
 }
-.sknimg:hover{
-	opacity: .80;
-	cursor: pointer;
+
+/* ========== TREATMENTS ========== */
+.trmnt {
+  font-family: 'Righteous', cursive;
 }
-.panchimg:hover{
-	opacity: .80;
-	cursor: pointer;
+
+.shd {
+  font-size: 16px;
+  padding: 15px 0;
 }
+
+/* Hover images */
+.imgshiro:hover,
+.sknimg:hover,
+.panchimg:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+/* ========== FOOTER ========== */
+.ftr {
+  background: url("images/footerimg.png") no-repeat center;
+  background-size: cover;
+  padding: 60px 0;
+}
+
+.flw {
+  font-size: 16px;
+}
+
+.rr {
+  padding-right: 5px;
+}
+
+.pft1:hover,
+.pft2:hover,
+.pft3:hover,
+.pft4:hover {
+  color: red;
+}
+
+/* ========== COPYRIGHT ========== */
+.cpbx {
+  background-color: rgba(50, 117, 26, 0.4);
+  padding: 10px 0;
+}
+
+.cprt {
+  font-size: 14px;
+}
+
