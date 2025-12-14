@@ -1,38 +1,27 @@
-/* ========== GENERAL ========== */
 body {
   font-family: 'PT Sans', sans-serif;
+  margin: 0;
 }
 
-.rounded {
-  margin-top: -20px;
+/* REMOVE BULLETS FORCE */
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-.aa {
-  margin-left: 15px;
+.icon-box i {
   color: white;
-  font-size: 18px;
+  margin-left: 15px;
   cursor: pointer;
 }
 
-/* ========== ICON HOVER ========== */
-.search:hover,
-.contct:hover,
-.hrt:hover {
-  color: red;
-}
-
-/* ========== NAV ICON CONTAINER ========== */
-.mm {
-  display: flex;
-  align-items: center;
-}
-
-/* ========== BANNER ========== */
-.img1 {
+/* BANNER */
+.banner {
   position: relative;
 }
 
-.cption {
+.banner-text {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -40,101 +29,72 @@ body {
   color: white;
   text-align: center;
   font-family: 'Langar', cursive;
-  text-shadow: 1px 1px 3px #000;
+  text-shadow: 2px 2px 5px #000;
 }
 
-.cpt1 {
-  font-size: 28px;
-}
-
-/* ========== FEATURES SECTION ========== */
-.kj {
-  background-color: #59b10d;
-  margin-top: -150px;
-}
-
-.leaf {
-  width: 200px;
-  height: 80px;
-  background: url("images/leaf.png") center no-repeat;
-  background-size: contain;
-  margin: 20px auto;
-}
-
-.prg {
+/* FEATURES */
+.features {
+  background: #59b10d;
   color: white;
-  text-align: justify;
+  text-align: center;
+  padding: 60px 20px;
 }
 
-/* ========== BUTTONS ========== */
-.bgpnk,
-.bttn2 {
-  background-color: #9f245a;
+.btn-custom {
+  background: #9f245a;
   color: white;
+  padding: 10px 25px;
+  border: none;
 }
 
-/* ========== WHY AYURVEDA ========== */
-.bgpink {
-  background-color: #9f245a;
+/* WHY AYURVEDA */
+.why-ayurveda {
+  background: #8fb479;
+  padding: 60px 20px;
+  text-align: center;
 }
 
-.pdd {
-  background-color: #8fb479;
-  padding: 40px 0;
+/* TREATMENTS */
+.treatments {
+  padding: 60px 20px;
+  text-align: center;
 }
 
-.dd3 {
-  font-family: 'Righteous', cursive;
-  color: #9f245a;
-}
-
-/* ========== TREATMENTS ========== */
-.trmnt {
-  font-family: 'Righteous', cursive;
-}
-
-.shd {
-  font-size: 16px;
-  padding: 15px 0;
-}
-
-/* Hover images */
-.imgshiro:hover,
-.sknimg:hover,
-.panchimg:hover {
-  opacity: 0.8;
+.treatments img {
+  margin-bottom: 15px;
   cursor: pointer;
 }
 
-/* ========== FOOTER ========== */
-.ftr {
+.treatments img:hover {
+  opacity: 0.8;
+}
+
+/* YOGA */
+.yoga {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+/* FOOTER */
+.footer {
   background: url("images/footerimg.png") no-repeat center;
   background-size: cover;
-  padding: 60px 0;
+  padding: 60px 20px;
+  color: black;
 }
 
-.flw {
-  font-size: 16px;
+.footer i {
+  margin-right: 10px;
+  cursor: pointer;
 }
 
-.rr {
-  padding-right: 5px;
-}
-
-.pft1:hover,
-.pft2:hover,
-.pft3:hover,
-.pft4:hover {
+.footer i:hover {
   color: red;
 }
 
-/* ========== COPYRIGHT ========== */
-.cpbx {
-  background-color: rgba(50, 117, 26, 0.4);
-  padding: 10px 0;
+/* COPYRIGHT */
+.copyright {
+  background: rgba(50,117,26,0.4);
+  text-align: center;
+  padding: 10px;
 }
-
-.cprt {
-  font-size: 14px;
-}
-
