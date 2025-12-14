@@ -133,5 +133,25 @@ body {
     font-size: 26px;
   }
 }
+/* ========= Banner Text Mobile Adjustment ========= */
+@media (max-width: 576px) {
+  .banner-text {
+    top: 55%;                  /* slightly lower for mobile */
+    width: 90%;                /* prevent text overflow */
+    font-size: 18px;           /* reduce large text */
+    line-height: 1.4;          /* better readability */
+    padding: 0 10px;
+  }
+
+  .banner-text h1 {
+    font-size: 22px;
+  }
+
+  .banner-text p {
+    font-size: 14px;
+  }
+}
+
+
 
 
