@@ -98,3 +98,40 @@ body {
   text-align: center;
   padding: 10px;
 }
+/* ================= MOBILE VIEW TEXT FIX ================= */
+@media (max-width: 576px) {
+
+  /* Banner text */
+  .cpt1 {
+    font-size: 20px;        /* reduce big text */
+    line-height: 1.4;
+    padding: 0 15px;
+  }
+
+  /* Ayurveda Features heading */
+  .kj h1,
+  .display-4 {
+    font-size: 28px;
+  }
+
+  /* Paragraph text */
+  .prg {
+    font-size: 14px;
+    line-height: 1.6;
+    padding: 0 15px;
+  }
+
+  /* Read More button */
+  .bgpnk,
+  .bttn2 {
+    font-size: 14px;
+    padding: 8px 20px;
+  }
+
+  /* Why Ayurveda heading */
+  .dd3 {
+    font-size: 26px;
+  }
+}
+
+
