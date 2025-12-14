@@ -2,19 +2,20 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Responsive Ayurveda Design</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Bootstrap 4 -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <!-- BOOTSTRAP 4 CDN -->
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
 
-  <!-- Google Fonts -->
+  <!-- GOOGLE FONTS -->
   <link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Righteous&family=Langar&display=swap" rel="stylesheet">
 
-  <!-- Font Awesome -->
+  <!-- FONT AWESOME -->
   <script src="https://kit.fontawesome.com/ec7fa03a65.js" crossorigin="anonymous"></script>
 
-  <!-- Custom CSS -->
+  <!-- CUSTOM CSS -->
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -23,7 +24,7 @@
 <!-- ================= NAVBAR ================= -->
 <nav class="navbar navbar-expand-md navbar-dark bg-success">
   <a class="navbar-brand" href="#">
-    <img src="images/logo.png" class="rounded" alt="Logo" width="104" height="86">
+    <img src="images/logo.png" width="100" alt="Logo">
   </a>
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navMenu">
@@ -31,7 +32,7 @@
   </button>
 
   <div class="collapse navbar-collapse" id="navMenu">
-    <ul class="navbar-nav mr-auto">
+    <ul class="navbar-nav mx-auto">
       <li class="nav-item"><a class="nav-link" href="#">Products</a></li>
       <li class="nav-item"><a class="nav-link" href="#">Treatments</a></li>
       <li class="nav-item"><a class="nav-link" href="#">Ayurveda</a></li>
@@ -41,123 +42,126 @@
       <li class="nav-item"><a class="nav-link" href="#">Reviews</a></li>
     </ul>
 
-    <div class="mm">
-      <span class="aa"><i class="fas fa-search search"></i></span>
-      <span class="aa"><i class="fas fa-shopping-cart contct"></i></span>
-      <span class="aa"><i class="fas fa-heart hrt"></i></span>
+    <div class="icon-box">
+      <i class="fas fa-search"></i>
+      <i class="fas fa-shopping-cart"></i>
+      <i class="fas fa-heart"></i>
     </div>
   </div>
 </nav>
 
 <!-- ================= BANNER ================= -->
-<div class="container-fluid p-0 img1">
-  <img src="images/ayurbnr.png" class="img-fluid w-100" alt="Banner">
-  <div class="cption">
-    <h1 class="cpt1">
-      The Body Benefits from movement, and the mind benefits from stillness.
-    </h1>
+<div class="banner">
+  <img src="images/ayurbnr.png" class="img-fluid w-100">
+  <div class="banner-text">
+    <h2>The Body Benefits from movement,<br>and the mind benefits from stillness.</h2>
   </div>
 </div>
 
 <!-- ================= AYURVEDA FEATURES ================= -->
-<div class="container-fluid kj">
-  <div class="text-center text-white pt-4">
-    <h1 class="display-4">Ayurveda Features</h1>
-  </div>
-
-  <div class="leaf mx-auto"></div>
-
-  <p class="container prg">
-    Nagarjuna Ayurveda is one of the trend setters in health care sector which took effective steps to restore Ayurveda as the mainstream Health Management System. Nagarjuna has taken immense efforts in manufacturing quality Ayurvedic medicines and providing holistic healthcare solutions.
+<section class="features">
+  <h1>Ayurveda Features</h1>
+  <p>
+    Nagarjuna Ayurveda is one of the trend setters in health care sector which took
+    effective steps to restore Ayurveda as the mainstream Health Management System.
   </p>
-
-  <div class="text-center pb-4">
-    <button class="btn bgpnk">READ MORE</button>
-  </div>
-</div>
+  <button class="btn btn-custom">READ MORE</button>
+</section>
 
 <!-- ================= WHY AYURVEDA ================= -->
-<div class="container-fluid bgpink">
-  <div class="container pdd">
-    <h1 class="display-4 dd3 text-center">Why Ayurveda</h1>
+<section class="why-ayurveda">
+  <h1>Why Ayurveda</h1>
 
+  <div class="container">
     <div class="row align-items-center">
-      <div class="col-lg-5 mb-3">
-        <img src="images/thulasi.png" class="img-fluid" alt="Tulasi">
+      <div class="col-md-5">
+        <img src="images/leaf.png" class="img-fluid">
       </div>
-
-      <div class="col-lg-7">
-        <p class="thnag">
-          Nagarjuna is one of the most trusted brands in Kerala Ayurveda, promoting authentic Ayurvedic practices and treatments across the globe.
+      <div class="col-md-7">
+        <p>
+          Nagarjuna is one of the most trusted brands in Kerala Ayurveda.
+          Many Ayurvedic centres lack authenticity and dilute core principles.
         </p>
-
-        <div class="text-center">
-          <button class="btn bttn2">READ MORE</button>
-        </div>
+        <button class="btn btn-custom">READ MORE</button>
       </div>
     </div>
   </div>
-</div>
+</section>
 
 <!-- ================= TREATMENTS ================= -->
-<div class="container text-center trmnt">
-  <h1 class="display-4">Treatments</h1>
-</div>
+<section class="treatments">
+  <h1>Treatments</h1>
 
-<div class="container-fluid bg-white">
-  <div class="row text-center">
-    <div class="col-md-4 imgshiro">
-      <img src="images/shirodhara.png" class="img-fluid" alt="">
-      <h5 class="shd">Shirodhara</h5>
-    </div>
-
-    <div class="col-md-4 sknimg">
-      <img src="images/skindes.png" class="img-fluid" alt="">
-      <h5 class="shd">Skin Diseases</h5>
-    </div>
-
-    <div class="col-md-4 panchimg">
-      <img src="images/panchakarma.png" class="img-fluid" alt="">
-      <h5 class="shd">Panchakarma</h5>
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-md-4">
+        <img src="images/shirodhara.png" class="img-fluid">
+        <h5>Shirodhara</h5>
+      </div>
+      <div class="col-md-4">
+        <img src="images/skindes.png" class="img-fluid">
+        <h5>Skin Diseases</h5>
+      </div>
+      <div class="col-md-4">
+        <img src="images/panchakarma.png" class="img-fluid">
+        <h5>Panchakarma</h5>
+      </div>
     </div>
   </div>
-</div>
+</section>
+
+<!-- ================= YOGA ================= -->
+<section class="yoga">
+  <h1>YOGA POSES</h1>
+
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-5">
+        <img src="images/img4.png" class="img-fluid">
+        <h4>LUNGE TWIST</h4>
+      </div>
+      <div class="col-md-7">
+        <p>
+          Yoga improves flexibility, confidence, circulation,
+          muscle tone, energy levels and calms the mind.
+        </p>
+        <button class="btn btn-custom">LEARN MORE</button>
+      </div>
+    </div>
+  </div>
+</section>
 
 <!-- ================= FOOTER ================= -->
-<div class="container-fluid ftr">
+<footer class="footer">
   <div class="container">
-    <div class="row text-white">
+    <div class="row">
       <div class="col-md-4">
-        <p><i class="fas fa-angle-right rr"></i> Home</p>
-        <p><i class="fas fa-angle-right rr"></i> About Us</p>
-        <p><i class="fas fa-angle-right rr"></i> Products</p>
-        <p><i class="fas fa-angle-right rr"></i> Treatments</p>
+        <p>> Home</p>
+        <p>> About Us</p>
+        <p>> Products</p>
+        <p>> Treatments</p>
       </div>
-
       <div class="col-md-4">
-        <p><i class="fas fa-angle-right rr"></i> Gallery</p>
-        <p><i class="fas fa-angle-right rr"></i> Videos</p>
-        <p><i class="fas fa-angle-right rr"></i> Research</p>
+        <p>> Photo Gallery</p>
+        <p>> Video Gallery</p>
+        <p>> Research</p>
       </div>
-
       <div class="col-md-4">
-        <h5 class="flw">Follow Us</h5>
-        <i class="fab fa-facebook-f pft1"></i>
-        <i class="fab fa-google-plus-g pft2"></i>
-        <i class="fab fa-pinterest-p pft3"></i>
-        <i class="fab fa-twitter pft4"></i>
+        <p>Follow Us:</p>
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-google-plus-g"></i>
+        <i class="fab fa-pinterest-p"></i>
+        <i class="fab fa-twitter"></i>
       </div>
     </div>
   </div>
+</footer>
+
+<div class="copyright">
+  © 2020 Ayurherbals | All Rights Reserved
 </div>
 
-<div class="container-fluid cpbx">
-  <p class="cprt text-center text-dark">
-    © 2020 Ayurherbals | All Rights Reserved
-  </p>
-</div>
-
-<!-- Bootstrap JS -->
+<!-- BOOTSTRAP JS -->
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
